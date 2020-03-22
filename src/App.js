@@ -1,25 +1,48 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useEffect, useState, Suspense } from "react";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { createMuiTheme, ThemeProvider } from "@material-ui/core/styles";
+import Home from "./screens/Home";
+import Questionaire from "./screens/Questionaire";
+import About from "./screens/About";
+import coronaTheme from "./theme/corona";
+import firebase from "./firebase";
+
+const theme = createMuiTheme({
+  ...coronaTheme
+});
 
 function App() {
+  const [user, setUser] = useState(null);
+
+  useEffect(() => {
+    if (user === null) {
+      firebase.auth().signInAnonymously();
+      firebase.auth().onAuthStateChanged(loggedInUser => {
+        if (loggedInUser) {
+          setUser(loggedInUser.uid);
+        }
+      });
+    }
+  }, [user]);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Suspense fallback={null}>
+      <ThemeProvider theme={theme}>
+        <Router>
+          <Switch>
+            <Route path="/about">
+              <About />
+            </Route>
+            <Route path="/questionaire">
+              <Questionaire />
+            </Route>
+            <Route path="/">
+              <Home />
+            </Route>
+          </Switch>
+        </Router>
+      </ThemeProvider>
+    </Suspense>
   );
 }
 

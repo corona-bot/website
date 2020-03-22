@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "key": "age",
+    "type": "CHOICE",
+    "options": [
+      {
+        "text": "younger40",
+        "next": 2
+      },
+      {
+        "text": "4150",
+        "next": 2
+      },
+      {
+        "text": "5160",
+        "next": 3
+      },
+      {
+        "text": "6170",
+        "next": 2
+      },
+      {
+        "text": "7180",
+        "next": 2
+      },
+      {
+        "text": "older80",
+        "next": 2
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "key": "living",
+    "type": "CHOICE",
+    "options": [
+      {
+        "text": "alone",
+        "next": 3
+      },
+      {
+        "text": "household",
+        "next": 3
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "key": "occupation",
+    "type": "CHOICE",
+    "options": [
+      {
+        "text": "med",
+        "next": 4
+      },
+      {
+        "text": "institute",
+        "next": 4
+      },
+      {
+        "text": "none",
+        "next": 4
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "key": "smoker",
+    "type": "BOOL"
+  }
+]

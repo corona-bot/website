@@ -1,0 +1,53 @@
+{
+  "languages": {
+    "de-DE": "DE",
+    "en-US": "EN",
+    "tr-TR": "TR"
+  },
+  "question": {
+    "yes": "Ja",
+    "no": "Nein",
+    "1": {
+      "headline": "Wie alt bist du?",
+      "info": null,
+      "options": {
+        "younger40": "Jünger als 40",
+        "4150": "41-50",
+        "5160": "51-60",
+        "6170": "61-70",
+        "7180": "71-80",
+        "older80": "Älter als 80"
+      }
+    },
+    "2": {
+      "headline": "Wie ist deine Wohnsituation?",
+      "info": null,
+      "options": {
+        "alone": "Allein wohnend",
+        "household": "Zusammen mit Familie, in einer Wohngemeinschaft oder betreuten Gemeinschaftseinrichtung"
+      }
+    },
+    "3": {
+      "headline": "Bist du in einem der folgenden Bereiche tätig?",
+      "info": null,
+      "options": {
+        "med": "Im medizinischen Bereich",
+        "institute": "In einer Gemeinschaftseinrichtung",
+        "none": "Nein, in keinem der genannten Bereiche"
+      }
+    }
+  },
+  "progress": "Fortschritt",
+  "introduction": {
+    "headline": "#fightcovid",
+    "text": "Unterstütze den weltweiten Kampf gegen Covid-19. Deine Daten helfen uns zur Bekämpfung der Corona-Krise.",
+    "videoUrl": "https://www.youtube.com"
+  },
+  "disclaimer": {
+    "headline": "Einwilligungserklärung",
+    "important": "Bevor du uns im Kampf gegen Corona helfen kannst, musst du zustimmen, dass du uns etwas über deine Gesundheit verrätst. Die Daten werden nur für den Kampf gegen Corvid-19 eingesetzt.",
+    "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, Sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum",
+    "accept": "Akzeptieren",
+    "decline": "Ablehnen"
+  }
+}

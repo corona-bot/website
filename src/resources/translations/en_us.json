@@ -1,0 +1,35 @@
+{
+  "languages": {
+    "de-DE": "DE",
+    "en-US": "EN",
+    "tr-TR": "TR"
+  },
+  "question": {
+    "yes": "Ja",
+    "no": "Nein,"
+  },
+  "introduction": {
+    "headline": "#fightcovid",
+    "text": "Support the world wide fight against Covid-19. Your data can support our fight during the Corona Crisis.",
+    "videoUrl": "https://www.youtube.com"
+  },
+  "question.1.headline": "Wie alt bist du?",
+  "question.1.info": null,
+  "question.1.options.younger40": "Jünger als 40",
+  "question.1.options.4050": "40-50",
+  "question.1.options.5160": "51-60",
+  "question.1.options.6170": "61-70",
+  "question.1.options.7180": "71-80",
+  "question.1.options.older80": "Älter als 80",
+  "question.2.headline": "Wie ist deine Wohnsituation?",
+  "question.2.info": null,
+  "question.2.options.alone": "Allein wohnend",
+  "question.2.options.household": "Zusammen mit Familie, in einer Wohngemeinschaft oder betreuten Gemeinschaftseinrichtung",
+  "question.3.headline": "Bist du in einem der folgenden Bereiche tätig?",
+  "question.3.info": null,
+  "question.3.options.med": "Im medizinischen Bereich",
+  "question.3.options.institute": "In einer Gemeinschaftseinrichtung (Schule, Kita, Universität, Heim etc.)",
+  "question.3.options.none": "Nein, in keinem der genannten Bereiche",
+  "question.4.headline": "Rauchst du?",
+  "question.4.info": null
+}
